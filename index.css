@@ -1,0 +1,148 @@
+body {
+    background-color: darkslategrey;
+}
+
+a {
+    color: floralwhite;
+    text-decoration: none;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 300px;
+}
+
+.set1 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 60vw;
+    
+}
+
+.box1 {
+    width: 100px;
+    height: 90px;
+    background-color: #3decec;
+    animation: box1 5s linear 1s infinite;
+}
+
+@keyframes box1 {
+    0% {
+        transform: skewX(0deg);
+    }
+    33% {
+        transform: skewX(15deg);
+    }
+    66%{
+        transform: skewX(-15deg);
+    }
+    100%{
+        transform: skewX(0deg);
+    }
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: #e6e628;
+    animation: box2 5s linear 1s infinite;
+}
+
+@keyframes box2 {
+    0% {
+        transform: skewY(0deg);
+    }
+    33% {
+        transform: skewY(15deg);
+    }
+    66%{
+        transform: skewY(-15deg);
+    }
+    100%{
+        transform: skewY(0deg);
+    }
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: #eba118;
+    animation: box3 5s linear 1s infinite;
+    transform: rotate(360deg);
+}
+
+@keyframes box3 {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.box1-4{
+    width: 100px;
+    height: 100px;
+    background-color: #e2539b;
+    animation: box1-4 5s linear 1s infinite;
+    
+}
+
+@keyframes box1-4 {
+    0% {
+        transform: scaleY(0.5);
+    }
+    50%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(0.5);
+    }
+}
+
+.box2-4{
+    width: 100px;
+    height: 100px;
+    background-color: #306bd8;
+    animation: box2-4 5s linear 1s infinite;
+    
+}
+
+@keyframes box2-4 {
+    0% {
+        transform: scaleX(0.5);
+    }
+    50%{
+        transform: scaleX(1);
+    }
+    100%{
+        transform: scaleX(0.5);
+    }
+}
+
+.box3-4{
+    width: 100px;
+    height: 100px;
+    background-color: #1cdf1c;
+    animation: box3-4 5s linear 1s infinite;
+    
+}
+
+@keyframes box3-4 {
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-90deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
